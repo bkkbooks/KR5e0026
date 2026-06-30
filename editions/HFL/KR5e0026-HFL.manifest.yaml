@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0026/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5e0026/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶玄門大義
+  date: '2015-08-29 02:06:59.922271'
+  source:
+    repository: kanripo
+    path: KR5e0026
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0026_000-HFL.yaml, hash: 'sha256:8a813ac8fdf2fe0b5635d5d15ea2a7ab562a0cbeca0f65353d21a6281d76a642'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0026_000-HFL.markers.yaml, hash: 'sha256:9964b2a71c384a61ae1a0caecf8b7e6e637362d49a4831457b10c2fac8f9e20f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0026_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 6283
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6b36f8b9ef8ffa5ef20a10ea22c06acec42aa4d4c7626486f10004ff34ce2227
